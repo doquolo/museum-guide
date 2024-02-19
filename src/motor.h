@@ -46,7 +46,7 @@ void STOP(void)
         analogWrite(mot2, 0);
         analogWrite(mot3, 100);
         analogWrite(mot4, 0);
-        delay(1000);
+        delay(250);
         analogWrite(mot1, 0);
         analogWrite(mot2, 0);
         analogWrite(mot3, 0);

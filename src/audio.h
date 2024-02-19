@@ -30,7 +30,7 @@ bool initAudio()
     // Set serial communictaion time out 500ms
     myDFPlayer.setTimeOut(500);
     // set volume
-    myDFPlayer.volume(20); // Set volume value (0~30).
+    myDFPlayer.volume(30); // Set volume value (0~30).
     // set eq
     myDFPlayer.EQ(DFPLAYER_EQ_NORMAL);
     // set sdcard as device
